@@ -5,7 +5,7 @@ Subject: out_of_process_instance.patch
 
 
 diff --git a/pdf/out_of_process_instance.cc b/pdf/out_of_process_instance.cc
-index 0358d15fb45b..101763db35d1 100644
+index 0358d15fb45bb57111ee2af0f791cd99f6f27f70..101763db35d129097bda50af1bfa9f6fb54b2228 100644
 --- a/pdf/out_of_process_instance.cc
 +++ b/pdf/out_of_process_instance.cc
 @@ -455,7 +455,9 @@ bool OutOfProcessInstance::Init(uint32_t argc,

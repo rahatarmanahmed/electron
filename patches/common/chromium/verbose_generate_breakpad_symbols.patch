@@ -7,7 +7,7 @@ Temporarily add additional debugging statements to
 generate_breakpad_symbols.py to determine why it is hanging.
 
 diff --git a/components/crash/content/tools/generate_breakpad_symbols.py b/components/crash/content/tools/generate_breakpad_symbols.py
-index 58646a10591a..0ae9c3c8ae27 100755
+index 58646a10591a1d3e7c2dd1782c3642b9cbe06738..0ae9c3c8ae27ca5684ebcb4f6a87f014c0e512b5 100755
 --- a/components/crash/content/tools/generate_breakpad_symbols.py
 +++ b/components/crash/content/tools/generate_breakpad_symbols.py
 @@ -59,7 +59,10 @@ def Resolve(path, exe_path, loader_path, rpaths):
