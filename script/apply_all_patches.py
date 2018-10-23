@@ -23,7 +23,7 @@ patch_dirs = {
 
 
 def apply_patches(dirs):
-  for patch_dir, repo in dirs:
+  for patch_dir, repo in dirs.iteritems():
     git.am(repo=repo, patch_data=patch_from_dir(patch_dir))
 
 
